@@ -19,15 +19,12 @@ if (isset($_REQUEST['code'])) {
 if ($token) {
 	$_SESSION['token'] = $token;
 	setcookie( 'weibojs_'.$o->client_id, http_build_query($token) );
-?>
-授权完成,<a href="index.php">进入微博发布页面</a><br />
-<?php
-echo '<script type=text/javascript>window.location.href="index.php"</script>';
-?>
-<?php
+
+    // echo '<script type=text/javascript>window.location.href="index.php"</script>';
+    header("Location: index.php");
+    exit;
 } else {
-?>
-授权失败。
-<?php
+    header("Location: login.php");
+    exit;
 }
 ?>

@@ -23,23 +23,26 @@ $code_url = $o->getAuthorizeURL( WB_CALLBACK_URL );
     <link rel="stylesheet" href="css/page.css">
 </head>
 <body>
-<div>
-    <div class="doc">
-        <div class="header">
-            <h1 class="title">Weibo for Nintendo 3ds</h1>
-        </div><!-- /header -->
+<div class="doc">
+    <div class="header">
+        <h1 class="title">Weibo for Nintendo 3ds</h1>
+    </div><!-- /header -->
 
-        <div class="content">
-            <p>このサイトはニンテンドー3DSから画像付きツイートをかんたんに投稿するためのツールです。（非公式）</p>
-            <p>ニンテンドー3DSのインターネットブラウザーでこのサイトにアクセスすれば、いつでもニンテンドー3DSの画像をツイッターに投稿することができます。</p>
-            <p>もちろん、どなたでも無料でご利用いただけます。</p>
-            <p class="btn"><a href="<?=$code_url?>"><img src="img/weibo_login.png" alt="login" border="0" /></a></p>
-        </div><!-- /content -->
+    <div class="content">
+        <p>Weibo for Nintendo 3ds</p>
+        <p>Theme by <a href="http://tw3ds.com/login.php">tw3ds</a></p>
+        <p>Thanks @nihimoto (Twitter)</p>
+        <p class="btn"><a href="<?=$code_url?>"><img src="img/weibo_login.png" alt="login" border="0" /></a></p>
+    </div><!-- /content -->
 
-        <div class="footer">
-            <a data-role="button" data-theme="b" href="http://wb3ds.sinaapp.com">- wb3ds.sinaapp.com - </a>
-        </div><!-- /footer -->
-    </div>
+    <div class="footer">
+        <div><a href="http://wb3ds.sinaapp.com">home</a><a href="https://github.com/yanisliu/wb3ds/issues">question</a><a href="https://github.com/yanisliu/wb3ds">github</a></div>
+        <div>
+            <p>If you use twitter, try <a href="http://tw3ds.com/login.php">tw3ds</a></p>
+            <p>Theme by <a href="http://tw3ds.com/login.php">tw3ds</a></p>
+        </div>
+        <a href="http://wb3ds.sinaapp.com">- wb3ds.sinaapp.com - </a>
+    </div><!-- /footer -->
 </div><!-- /page -->
 </body>
 </html>

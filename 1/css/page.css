@@ -40,6 +40,14 @@ html{color:#444;overflow-y:scroll;background:#eee;}body,h1,h2,h3,h4,h5,h6,hr,p,b
 .content p.btn {
     text-align: center;
 }
+.content p.error {
+    padding: 2px 0;
+    border: 1px solid #c00;
+    background-color: #eee;
+    text-align: center;
+    color: #c00;
+    font-weight: 700;
+}
 .content form {
     text-align: center;
 }
@@ -61,8 +69,18 @@ html{color:#444;overflow-y:scroll;background:#eee;}body,h1,h2,h3,h4,h5,h6,hr,p,b
     padding-left: 4px;
 }
 .footer {
-    height: 24px;
-    line-height: 24px;
+    margin-top: 10px;
+    padding-bottom: 10px;
+    line-height: 20px;
     border-top: 2px solid #999;
     text-align: center;
+}
+.content a,
+.footer a {
+    padding: 0 4px;
+    text-decoration: underline;
+}
+.footer div {
+    padding: 4px 0;
+    border-bottom: 1px solid #ccc;
 }
