@@ -1,0 +1,68 @@
+/**
+ * weibo for nintendo 3ds
+ * @author github.com/yanisliu
+ */
+
+/* reset */
+html{color:#444;overflow-y:scroll;background:#eee;}body,h1,h2,h3,h4,h5,h6,hr,p,blockquote,dl,dt,dd,ul,ol,li,pre,fieldset,lengend,button,input,textarea,form,th,td{margin:0;padding:0;}body,button,input,select,textarea{font:12px/1.5 Tahoma,Arial,sans-serif;}h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal;}address,cite,dfn,em,var{font-style:normal;}ul,ol{list-style:none;}a{text-decoration:none;}a:hover{text-decoration:underline;color:#66f;}legend{color:#000;}fieldset,img{border:none;}button,input,select,textarea{font-size:100%;}table{border-collapse:collapse;border-spacing:0;}
+
+/* page */
+.doc {
+    width: 300px;
+    margin: 0 auto;
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    background-color: #fff;
+}
+.header {
+    height: 66px;
+    margin-bottom: 10px;
+    border-bottom: 10px solid #000;
+    background-color: #4cb4d4;
+}
+.header .title {
+    height: 60px;
+    padding-left: 82px;
+    line-height: 58px;
+    background: url(/img/logo.png) no-repeat 10px 1px;
+    font-size: 18px;
+    color: #fff;
+}
+.content {
+    padding: 0 10px;
+}
+.content h2 {
+    margin-bottom: 10px;
+}
+.content p {
+    margin-bottom: 10px;
+}
+.content p.btn {
+    text-align: center;
+}
+.content form {
+    text-align: center;
+}
+.content dl dt {
+    padding: 5px 0;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    background-color: #eee;
+    font-weight: bold;
+}
+.content dl dd {
+    padding: 10px 0;
+}
+.content .username {
+    color: #f00;
+}
+.content .comment {
+    width: 240px;
+    padding-left: 4px;
+}
+.footer {
+    height: 24px;
+    line-height: 24px;
+    border-top: 2px solid #999;
+    text-align: center;
+}
