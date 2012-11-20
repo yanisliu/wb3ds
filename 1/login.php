@@ -31,12 +31,12 @@ $code_url = $o->getAuthorizeURL( WB_CALLBACK_URL );
     <div class="content">
         <p>Weibo for Nintendo 3ds</p>
         <p>Theme by <a href="http://tw3ds.com/login.php">tw3ds</a></p>
-        <p>Thanks @nihimoto (Twitter)</p>
+        <p>Great thanks to <a href="https://twitter.com/nihimoto" target="_blank">@nihimoto</a>(Twitter)</p>
         <p class="btn"><a href="<?=$code_url?>"><img src="img/weibo_login.png" alt="login" border="0" /></a></p>
     </div><!-- /content -->
 
     <div class="footer">
-        <div><a href="http://wb3ds.sinaapp.com">home</a><a href="https://github.com/yanisliu/wb3ds/issues">question</a><a href="https://github.com/yanisliu/wb3ds">github</a></div>
+        <div><a href="http://wb3ds.sinaapp.com">home</a><a href="https://github.com/yanisliu/wb3ds/issues" target="_blank">question</a><a href="https://github.com/yanisliu/wb3ds" target="_blank">github</a></div>
         <div>
             <p>If you use twitter, try <a href="http://tw3ds.com/login.php">tw3ds</a></p>
             <p>Theme by <a href="http://tw3ds.com/login.php">tw3ds</a></p>

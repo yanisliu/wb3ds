@@ -77,7 +77,7 @@ if ( isset($_REQUEST['comment']) ) {
     </div><!-- /content -->
 
     <div class="footer">
-        <div><a href="http://wb3ds.sinaapp.com">home</a><a href="https://github.com/yanisliu/wb3ds/issues">question</a><a href="https://github.com/yanisliu/wb3ds">github</a></div>
+        <div><a href="http://wb3ds.sinaapp.com">home</a><a href="https://github.com/yanisliu/wb3ds/issues" target="_blank">question</a><a href="https://github.com/yanisliu/wb3ds" target="_blank">github</a></div>
         <div>
             <p>If you use twitter, try <a href="http://tw3ds.com/login.php">tw3ds</a></p>
             <p>Theme by <a href="http://tw3ds.com/login.php">tw3ds</a></p>
